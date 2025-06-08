@@ -1,5 +1,4 @@
 'use client'
-
 import { useState, useEffect } from 'react'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
@@ -383,16 +382,16 @@ const fetchOverviewMetrics = async () => {
             <Download className="mr-2 h-4 w-4" />
             Export as CSV
           </Button>
-          <Button onClick={trainModel} size="sm">
+          {/* <Button onClick={trainModel} size="sm">
             Train Model
-          </Button>
+          </Button> */}
         </div>
       </div>
       <Tabs defaultValue="overview" className="space-y-4">
         <TabsList>
           <TabsTrigger value="overview">Overview</TabsTrigger>
           <TabsTrigger value="analytics">Analytics</TabsTrigger>
-          <TabsTrigger value="reports">Reports and Training</TabsTrigger>
+          {/* <TabsTrigger value="reports">Reports and Training</TabsTrigger> */}
         </TabsList>
         <TabsContent value="overview" className="space-y-4">
           <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">

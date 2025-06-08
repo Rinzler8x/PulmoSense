@@ -2,24 +2,11 @@
 import { useState, useEffect } from "react";
 import { createClient } from "@supabase/supabase-js";
 import Link from "next/link";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button";
-import { Stethoscope, X, Zap, MessageCircleQuestion, MessageSquareWarningIcon } from "lucide-react";
-import { Footer } from "@/components/footer";
-import {
-  Dialog,
-  DialogContent,
-  DialogTitle,
-  DialogDescription,
-  DialogFooter,
-  DialogTrigger,
-  DialogClose,
-} from "@/components/ui/dialog"; 
-import {
-  Popover,
-  PopoverContent,
-  PopoverTrigger,
-} from "@/components/ui/popover";
+import { X, Zap, MessageSquareWarningIcon } from "lucide-react";
+import {Dialog, DialogContent, DialogTitle, DialogDescription, DialogFooter, DialogClose,} from "@/components/ui/dialog"; 
+import { Popover, PopoverContent, PopoverTrigger,} from "@/components/ui/popover";
 
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL!,

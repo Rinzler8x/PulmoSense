@@ -136,7 +136,7 @@ def train_model(model, train_loader, valid_loader, criterion, optimizer, num_epo
     torch.save(model.state_dict(), model_path)
     print(f"Model saved to {model_path}")
 
-    # Evaluate the model on test data
+# Evaluate the model on test data
 def evaluate_model(model, test_loader):
     # Load the trained model weights
     model.load_state_dict(torch.load("alexnet_lung_ct.pth", weights_only=True))
