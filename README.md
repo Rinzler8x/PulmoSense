@@ -11,8 +11,8 @@
 - **Database:** Supabase.
 - **ML Models:** Pytorch, Scikit-learn, etc..
 
-### Comparative Analysis:
-<img src="https://github.com/Rinzler8x/PulmoSense/blob/main/README%20props/comparative_analysis.png" alt="table" />
+## Comparative Analysis:
+<img src="https://github.com/Rinzler8x/PulmoSense/blob/main/README%20props/comparative_analysis.png" alt="table" width="720" height="1280" />
 
 ### Application Screenshots:
 <div align="center">
